@@ -1,1 +1,1 @@
-# cor-coding-2024
+# Use this to store work, personal notes, etc.
