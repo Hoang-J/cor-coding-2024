@@ -1,0 +1,22 @@
+h1 {
+    color: #385438;
+}
+
+
+body {
+    font-family: Georgia;
+    background-color: #fafafa;
+    outline-style: solid;
+    outline-color: #4c9d4c;
+    padding: 25px;
+}
+
+h3 {
+    color: #436e42;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
