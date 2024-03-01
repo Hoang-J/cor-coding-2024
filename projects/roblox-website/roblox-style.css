@@ -1,0 +1,55 @@
+
+/* Navigation Bar */
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+
+}
+
+/* Styles the text in the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Styles the search box inside the navigation bar */
+
+.topnav input[type=text] {
+    float: inline-start;
+    padding: 6px;
+    border: solid;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* Login Box in the Center */
+
+.login {
+    display: block;
+    border: solid;
+    margin-top: 50px;
+    text-align: center;
+    padding: 14px;
+}
+
+.login-user {
+    margin: 10px;
+}
+
+.login-pass {
+    margin: 10px;
+}
+
+.login-button {
+    border-style: solid;
+    border-width: 5px 100px;
+    margin: 10px;
+}

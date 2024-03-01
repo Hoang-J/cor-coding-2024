@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+    h1{
+        color:#a3a6e8;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(8, 100px);
+        grid-template-rows: repeat(8, 100px);
+    }
+    
+    .black {
+        background-color: black;
+        border-width: 1px;
+    
+    }
+    
+    .taro {
+        background-color: #a3a6e8;
+        border-width: 1px;
+    }
+    
+    svg {
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+    
+    }
+    
+    
+    
+    .taro {
+        width: 100px;
+        height: 100px;
+        background-color: #a3a6e8;
+        animation-name: taro;
+        animation-duration: 4s;
+        animation-iteration-count: infinite; 
+        animation-direction: alternate-reverse;
+    }
+    
+    
+    @keyframes taro {
+        from {background-color:#a3a6e8}
+        to {background-color:black}
+         }
+    
+    
+    .black { 
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        animation-name: black-flash;
+        animation-duration: 4s; 
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+    @keyframes black-flash {
+        from {background-color: black;}
+        to {background-color: #a3a6e8;} }
+    
+    
+    
+    
+    
+    
+    
+    
+    
