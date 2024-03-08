@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <var> Vocaloid</var></title>
+
+    <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./vocaloid-styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+      <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+      <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+      <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+    </svg>
+    <a class="navbar-brand" href="#">Vocaloid</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://vocaloid.fandom.com/wiki/VOCALOIDs">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.vocaloid.com/en/">Software</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Vocaloids
+          </a>
+
+          <!-- Dropdown character list on nav bar -->
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Hatsune Miku</a></li>
+            <li><a class="dropdown-item" href="#">Kaito</a></li>
+            <li><a class="dropdown-item" href="#">Kagamine Len</a></li>
+            <li><a class="dropdown-item" href="#">Kagamine Rin</a></li>
+            <li><a class="dropdown-item" href="#">Megurine Luka</a></li>
+            <li><a class="dropdown-item" href="#">Gumi</a></li>
+            <li><a class="dropdown-item" href="#">Camui Gackpo</a></li>
+            <li><a class="dropdown-item" href="#">Teto Kasane</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Search bar on nav bar -->
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Vocaloid heading -->
+
+<div class="vocaloid-title tada animated infinite">
+  <h1>Vocaloids</h1>
+</div>
+
+<!-- Horizontal card of each vocaloids -->
+
+  <!-- Miku -->
+<div class="card border-warning mb-3 zoomOutRight animated" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/miku.webp" class="img-fluid rounded-start" alt="miku">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Hatsune Miku</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Kaito -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/kaito.webp" class="img-fluid rounded-start kaito-pic" alt="kaito">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Kaito</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. 
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Len -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/len.webp" class="img-fluid rounded-start" alt="len">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Kagamine Len</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Rin -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/rin.webp" class="img-fluid rounded-start" alt="rin">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Kagamine Rin</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Luka -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/luka.webp" class="img-fluid rounded-start" alt="luka">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Megurine Luka</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Gumi -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/Gumi.webp" class="img-fluid rounded-start gumi-pic" alt="gumi">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Gumi</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Gackpo -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/gackpo.webp" class="img-fluid rounded-start" alt="gackpo">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Gackpo Camui</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Teto -->
+<div class="card border-warning mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/teto.webp" class="img-fluid rounded-start teto-pic" alt="teto">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Kasane Teto</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
