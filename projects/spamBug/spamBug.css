@@ -1,0 +1,183 @@
+/* .arial{font-family:pro;} */
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.center {
+    position: relative;
+    right: 0px;
+    left: 300px;
+
+
+}
+.SignUp {
+    position: absolute;
+    left: 1000px;
+    font-size: 25px;
+    color: #0000FF;
+} 
+.LoginIn {
+    position: absolute;
+    font-size: 20px;
+    left:925px;
+    color: red;
+    background-color: white;
+    
+    
+
+}
+
+
+#profilePic {
+    border-radius: 50%;
+    float: left;
+    margin-right: 100px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 935px;
+    height: 164px;
+    
+}
+
+.profile-inside-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile-top {
+    display: inline-flex;
+    margin-right: 50px;
+   
+}
+
+.profile-middle {
+    font-weight: bold;
+}
+
+.profile-button {
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    /* margin-top: 30px; */
+    padding: 0;
+
+}
+
+span {
+    margin-right: 10px;
+}
+
+.grey {
+    color:grey;
+}
+
+.profile-tag {
+    padding: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+}
+
+.profile-footer {
+    margin-right: 10px;
+}
+
+
+.private-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.private-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+    width: 935px;
+    height: 166px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(239, 239, 239);
+
+}
+
+a.private {
+    color: #888888;
+}
+
+.private-p1 {
+    line-height: 24px;
+    font-weight: 600;
+
+    
+}
+
+
+/* popup */
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.popup-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 30%;
+    font-weight: bolder;
+}
+.popup-content button {
+    display: block;
+    margin: 0 auto;
+}
+.show {
+    display: block;
+}
+.virusText {
+    color: red;
+}
+
+
+
+/* footer */
+
+.footer {
+    color:#888888;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    /* position: fixed;
+    bottom: 100; */
+}
+
+#dropdown {
+    display: flex;
+    justify-content: center;
+    color: #888888;
+    padding: 0%;
+    border-radius: o;
+   
+    
+}
+
+
