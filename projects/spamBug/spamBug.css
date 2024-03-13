@@ -8,7 +8,7 @@ body {
 .center {
     position: relative;
     right: 0px;
-    left: 300px;
+    left: 240px;
 
 
 }
@@ -26,7 +26,7 @@ body {
 .SignUp {
     position: absolute;
     left: 1100px;
-    font-size: 16px;
+    font-size: 18px;
     color: #0095F6;
 } 
 
@@ -46,7 +46,7 @@ a.SignUp:hover {
 }
 .LoginIn {
     position: absolute;
-    font-size: 20px;
+    font-size: 19px;
     left:1000px;
     color: rgb(255, 255, 255);
     background-color: #0095F6;
@@ -76,9 +76,8 @@ a.SignUp:hover {
 
 #profilePic {
     position: absolute;
-    left: 540px;
+    left: 325px;
     top: 50px;
-    
     border-radius: 50%;
     margin-bottom: 0;
     margin-top: 50px;
@@ -108,7 +107,7 @@ a.SignUp:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    margin-right: 150px;
+    margin-right: 90px;
    
 }
 
@@ -120,8 +119,8 @@ a.SignUp:hover {
 
 .profile-middle > span {
     display: inline;
-    margin-right: 35px;
-    font-weight: 500;
+    margin-right: 15px;
+    font-weight: 600;
     font-size: 14px;
 
 }
@@ -263,13 +262,14 @@ a.private {
 .footer {
     color:#888888;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 #footer {
     display: flex;
     justify-content: center;
-    margin-top: 350px;
+    margin-top: 200px;
+    font-size: 13px;
     /* position: fixed;
     bottom: 100; */
 }
@@ -279,9 +279,22 @@ a.private {
     justify-content: center;
     color: #888888;
     padding: 0%;
-    border-radius: o;
-   
-    
+    border-radius: o; 
+    margin-top: 10px;
+    /* background-color: rgb(255, 255, 255); */
 }
 
+#dropdown > select {
+    background-color: rgb(255, 255, 255);
+}
+
+#dropdown > p {
+    font-size: 13px;
+}
+
+
+#Countries {
+    border: white;
+    color: #888888;
+}
 
