@@ -11,28 +11,25 @@ The webpage should be a good enough clone that the average person who does not f
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Adams (@jujulayne) • Instagram photos and videos</title>
     <link rel="icon" type="image/x-icon" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
-    <link rel="stylesheet" href="../spamBug.css">
-
+    <link rel="stylesheet" href="./spamBug.css">
+    <script src="https://kit.fontawesome.com/40a7b19699.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
+    <div class="top-nav">
         <p>
-            <img src="instaLogo.jpeg" width="125" height="50" class="center"> 
+            <img src="./images/instaLogo.png" width="125" height="50" class="center"> 
             <a class = "SignUp" href="https://www.instagram.com/accounts/emailsignup/?next=%2Fjujulayne%2F&hl=en">Sign up</a> 
-            <button class="LoginIn"> <a href="https://www.instagram.com/">Log in</a></button>
+            <button class="LoginIn"><a href="https://www.instagram.com/">Log in</a></button>
         </p>
-    </div>
-
-    <hr width="" size ="">  
+    </div> 
     
 
     <!-- Instagram Profile Section W/Image -->
     <div class="profile-container">
-        <img id="profilePic" src="jujuAndChia.jpeg" alt="Justin" width="150" height="150">
+        <img id="profilePic" src="./images/jujuAndChia.jpg" alt="Justin and Chia" width="150" height="150">
         <div class="profile-inside-container">
             <div class= "profile-top">
-                <h1>jujulayne</h1>
-                <button id="bugButton" class="profile-button">Follow</button>
+                <h1>jujulayne</h1><button id="bugButton" class="profile-button">Follow</button>
             </div>
             <div class="profile-middle">
                 <span>18 posts</span>
@@ -43,13 +40,13 @@ The webpage should be a good enough clone that the average person who does not f
                 <p><span class="profile-middle">Justin Adams</span><span class="grey">he/him</span></p>
             </div>
             <div class="profile-tag">
-                <button>@jujulayne</button>
-            </div>
+                <button onclick="bugPopper()"><i class="fa-brands fa-threads" style="color: #000000;"></i> jujulayne</button>
+            </div>  
             <div class="profile-footer">
                 <p>🤟🏻 | 🏐</p>
+                
             </div>
         </div>
-        
     </div>
     
   
@@ -66,11 +63,12 @@ The webpage should be a good enough clone that the average person who does not f
     <!-- virus pop-up -->
     <div id="bugPopup" class="popup">
         <div class="popup-content">
-            <button id="closePopup">
-                X
-            </button>
+            <div class="popup-content-button">
+                <button id="minimizePopup">-</button>
+                <button id="closePopup">x</button>
+            </div>
             <h1 class="virusText">
-                Go, Virus! <br> <img src="bugPokemon.png" alt="BUG!" width="100" height="100"> <br> ... It was very effective! 
+                Go, Virus! <br> <img src="./images/bugPokemon.png" alt="BUG!" width="100" height="100"> <br> ... It was very effective! 
             </h1>
             <p>This is a popup box!</p>
         </div>
@@ -114,5 +112,5 @@ The webpage should be a good enough clone that the average person who does not f
     </div>
     
 </body>
-<script src="../spamBug.js"></script>
+<script src="./spamBug.js"></script>
 </html>

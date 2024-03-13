@@ -14,14 +14,18 @@
 
 
 
+
 bugButton.addEventListener("click", function () {
     bugPopup.classList.add("show");
 });
 closePopup.addEventListener("click", function () {
     bugPopup.classList.remove("show");
 });
+minimizePopup.addEventListener("click", function () {
+    bugPopup.classList.remove("show");
+});
 window.addEventListener("click", function (event) {
-    if (event.target == myPopup) {
+    if (event.target != myPopup) {
         bugPopup.classList.remove("show");
     }
 });

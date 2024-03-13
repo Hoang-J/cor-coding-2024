@@ -2,6 +2,7 @@
 
 body {
     background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
 .center {
@@ -11,62 +12,141 @@ body {
 
 
 }
+
+.top-nav {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(219, 219, 219);
+}
+
+.top-nav > p {
+    margin: 0;
+}
+
 .SignUp {
     position: absolute;
-    left: 1000px;
-    font-size: 25px;
-    color: #0000FF;
+    left: 1100px;
+    font-size: 16px;
+    color: #0095F6;
 } 
+
+a.SignUp:link {
+    color: #0095F6;
+    text-decoration: none;
+}
+
+a.SignUp:visited {
+    color: #0095F6;
+    text-decoration: none;
+}
+
+a.SignUp:hover {
+    color: #0095F6;
+    text-decoration: none;
+}
 .LoginIn {
     position: absolute;
     font-size: 20px;
-    left:925px;
-    color: red;
-    background-color: white;
+    left:1000px;
+    color: rgb(255, 255, 255);
+    background-color: #0095F6;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
     
-    
-
 }
 
+.LoginIn:hover {
+    background-color: rgb(24, 119, 242);
+    box-shadow: none;
+}
+
+.LoginIn > a {
+    color: rgb(255, 255, 255);
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: none;
+    
+}
+.LoginIn > a:hover {
+    background-color: rgb(24, 119, 242);
+    box-shadow: none;
+}
 
 #profilePic {
+    position: absolute;
+    left: 540px;
+    top: 50px;
+    
     border-radius: 50%;
-    float: left;
-    margin-right: 100px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    object-fit: cover;
+    object-position: 10% 5%;
+    
 }
 
 .profile-container {
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 935px;
-    height: 164px;
+    width: 100%;
+    margin-top: 20px;
+    
     
 }
 
 .profile-inside-container {
     display: flex;
     flex-direction: column;
+    width: 20%;
     
 }
 
 .profile-top {
     display: inline-flex;
-    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
    
 }
 
-.profile-middle {
-    font-weight: bold;
+.profile-top > h1 {
+    
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.profile-middle > span {
+    display: inline;
+    margin-right: 35px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.profile-end {
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .profile-button {
-    border-radius: 15px;
+    border-radius: 8px;
     height: 30px;
-    width: 100px;
+    width: 80px;
+    position: relative;
+    right: 40px;
     /* margin-top: 30px; */
-    padding: 0;
+    font-weight: 600;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    margin-left: 68px;
+}
 
+button.profile-button:hover {
+    background-color: rgb(219, 219, 219);
 }
 
 span {
@@ -77,21 +157,33 @@ span {
     color:grey;
 }
 
-.profile-tag {
-    padding: 0;
+.profile-tag > button {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
     border-radius: 15px;
-    width: 100px;
+    width: 80px;
     height: 30px;
+    border: none;
+    font-size: 12px;
 }
 
+
 .profile-footer {
-    margin-right: 10px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.profile-footer > p {
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 
 .private-container {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 
@@ -99,15 +191,22 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
     width: 935px;
     height: 166px;
     border: solid;
     border-width: 1px;
-    border-color: rgb(239, 239, 239);
+    border-color: rgb(219, 219, 219);
+    font-size: 14px;
 
 }
+
+.private-box > p > a {
+    color:#0095F6;
+    text-decoration: none;
+}
+
 
 a.private {
     color: #888888;
@@ -117,7 +216,6 @@ a.private {
     line-height: 24px;
     font-weight: 600;
 
-    
 }
 
 
@@ -141,15 +239,21 @@ a.private {
     width: 30%;
     font-weight: bolder;
 }
-.popup-content button {
-    display: block;
-    margin: 0 auto;
+.popup-content-button {
+    display: flex;
+    justify-content: flex-end;
 }
+
 .show {
     display: block;
 }
 .virusText {
     color: red;
+}
+
+.virusText > img {
+    position: relative;
+    left: 80px;
 }
 
 
@@ -165,7 +269,7 @@ a.private {
 #footer {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 350px;
     /* position: fixed;
     bottom: 100; */
 }
