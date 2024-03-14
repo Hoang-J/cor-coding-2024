@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="./loginForm.css">
+    
 </head>
 <body>
-    <form>
+    <form onsubmit="getLogin()">
         <fieldset>
             <p>
                 <label for="name">What is your name?</label>
@@ -17,14 +18,30 @@
             </p>
             <p>
                 <label for="email">What is your email?</label>
-                <input type="text" name="userEmail" value="" id="email">
+                <input type="email" name="userEmail" value="" id="email" minlength="8">
             </p>
             <p>
                 <label for="password">Please type your password.</label>
-                <input type="text" name="userEmail" value="" id="">
+                <input type="password" name="passwordbox" value="" id="password" minlength="8">
             </p>
+            <p>
+                <label for="address">What is your address?</label>
+                <input type="text" name="userAddress" value="" id="address">
+            </p>
+            <p>
+                <label for="zipCode">What is your zipcode?</label>
+                <input type="number" name="userzipCode" value="" id="zipCode">
+            </p>
+            <p>
+                <label for="phoneNumber">What is your phone number?</label>
+                <input type="number" name="userphoneNumber" value="" id="phoneNumber" type="">
+            </p>
+            <div>
+                <button type="submit">Login</button>
+            </div>
         </fieldset>
     </form>
-    
+
 </body>
+<script src="./loginForm.js"></script>
 </html>
