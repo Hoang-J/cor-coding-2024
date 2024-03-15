@@ -24,7 +24,7 @@ fetch('https://randomuser.me/api/?results=5') // api for the get request
     // The value stored in the previous function is also passed as 
     // an argument to the next function even without a return statement
     // data now holds the value of response.json()
-    .then((data) => console.log(data));
+    .then((data) => console.log(data.results[0].name));
 
 
 
