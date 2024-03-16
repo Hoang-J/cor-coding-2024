@@ -26,7 +26,47 @@ fetch('https://randomuser.me/api/?results=20')
             
         } 
         console.log(usersInfo);
+
+        // let card = document.createElement("div");
+        // card.classList.add("user1");
+        // let container = document.getElementById("cardContainer");
+        // let pics = document.createElement("img");
+        // pics.src = usersInfo[0].photo;
+        // pics.alt = "Picture";
+
+        // card.appendChild(picture);
+
+
+
+        // let image = document.getElementById("user1");
+        // image.innerText = "PLEASE WORK IM TIRED GRANDPA";  🥺
+        // console.log(image);
+
+
+        // let imageTest = {"Image": usersInfo[0].photo};
+        // document.getElementById("image1").src = [imageTest];
+
+        
+
+        // document.body.onload = testFunction;
+
+        // function testFunction() {
+        //     let test = document.createElement("div");
+        //     let testContent = document.createTextNode("TEST TEST");
+        //     test.appendChild(testContent);
+        //     let originalTest = document.getElementById("user1");
+        //     document.body.insertBefore(test, originalTest);
+        // }
+
+    // window.addEventListener ("load", testFunction);
+            
+            let img = getElementById("image1");
+            img.src = "https://randomuser.me/api/portraits/med/women/57.jpg";
+            // user1.appendChild(img);
+            console.log(img.src);
+    
         // let user = document.getElementsByClassName('user');      // document is undefined?? 
+        
         user1.innerText = `${"First Name: " + usersInfo[0].firstName} \n ${"Last Name: " + usersInfo[0].lastName} \n ${"Phone Number: " + usersInfo[0].phoneNumber} \n ${"Street Address: " + usersInfo[0].streetAddress} \n ${"Photo ID: " + usersInfo[0].photo}`;
         
         user2.innerText = `${"First Name: " + usersInfo[1].firstName} \n ${"Last Name: " + usersInfo[1].lastName} \n ${"Phone Number: " + usersInfo[1].phoneNumber} \n ${"Street Address: " + usersInfo[1].streetAddress} \n ${"Photo ID: " + usersInfo[1].photo}`;
@@ -67,12 +107,14 @@ fetch('https://randomuser.me/api/?results=20')
 
         user20.innerText = `${"First Name: " + usersInfo[19].firstName} \n ${"Last Name: " + usersInfo[19].lastName} \n ${"Phone Number: " + usersInfo[19].phoneNumber} \n ${"Street Address: " + usersInfo[19].streetAddress} \n ${"Photo ID: " + usersInfo[19].photo}`;
 
+
+
+        document.getElementById("image1").src = usersInfo[0].photo;
+
         // usersInfo.map(getUserData);
         // function getUserData(item) {
         //     return [item.firstName, item.lastName, item.phoneNumber, item.streetAddress, item.photo].join(" ");
         // }
-        
-
         
     })
     
