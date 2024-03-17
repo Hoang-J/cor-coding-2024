@@ -8,14 +8,22 @@ Deploy the website */
 
 let userDatabase = [];
 
-// for(i = 0; i < 20; i++) {
+
 fetch('https://randomuser.me/api/?results=20')
     .then((response) => response.json())
-    .then((data) => (data));
+    .then((data) => {
+        userDatabase = data;
+    })
+    .then(() => {
+        console.log(userDatabase);
+    });
 
 
+// fetch('https://randomuser.me/api/?results=20')
+//     .then((response) => response.json())
+//     .then((data) => (console.log(data)));
     
-// }
 
-    
+
+
 
